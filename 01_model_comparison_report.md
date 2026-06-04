@@ -10,10 +10,10 @@
 
 세 모델 모두 동일한 회의록 요약 프롬프트를 입력했다.
 
-- 프롬프트 파일: `evidence/prompt.md`
-- ChatGPT 결과: `evidence/chatgpt_result.md`
-- Claude 결과: `evidence/claude_result.md`
-- Gemini 결과: `evidence/gemini_result.md`
+- 공통 프롬프트 원문: [evidence/prompt.md](./evidence/prompt.md)
+- ChatGPT 결과: [evidence/chatgpt_result.md](./evidence/chatgpt_result.md)
+- Claude 결과: [evidence/claude_result.md](./evidence/claude_result.md)
+- Gemini 결과: [evidence/gemini_result.md](./evidence/gemini_result.md)
 
 비교 대상 과업은 다음과 같다.
 
