@@ -522,4 +522,7 @@ ChatGPT의 GPTs 기능을 사용해 배포 가능한 형태로 구성했다.
 
 ## 15. 보너스 2 – 이미지 생성
 이미지 링크: [CANIDAY 운영 회의 결과를 시각화한 인포그래픽](./bonus/meeting_infographic.png)
+
 프롬프트: [이미지 프롬프트](./bonus/meeting_image_prompt.md)
+
+모델: gpt 5.5 thinking
