@@ -521,4 +521,5 @@ ChatGPT의 GPTs 기능을 사용해 배포 가능한 형태로 구성했다.
 [보너스 1 – 나만의 봇 배포_링크_](https://chatgpt.com/g/g-6a2521752c7c8191925b0dbf10c4d108-meetingops-pm)
 
 ## 15. 보너스 2 – 이미지 생성
- [CANIDAY 운영 회의 결과를 시각화한 인포그래픽](./bonus/meeting_infographic.png)
+이미지 링크: [CANIDAY 운영 회의 결과를 시각화한 인포그래픽](./bonus/meeting_infographic.png)
+프롬프트: [이미지 프롬프트](./bonus/meeting_image_prompt.md)
