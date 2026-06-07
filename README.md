@@ -491,3 +491,31 @@ Claude Sonnet 4.6을 사용해 총 11턴의 대화를 진행했다.
 최종 프롬프트는 회의 메모를 기반으로 회의 요약, 결정사항, 논의사항, Action Items, 리스크, 확인 필요 사항, 사내 공유용 요약을 생성하도록 설계했다.
 
 또한 Few-shot 예시 3개, 환각 검증 질문 7개, Pass/Fail 판정 기준, 11턴 대화 로그, 프롬프트 개선 과정, 심층 인터뷰 답변을 포함했다.
+
+## 14. 보너스 1 – 나만의 봇 배포
+
+최종 프롬프트를 재사용 가능한 GPT 형태로 배포할 수 있도록 구성했다.
+
+### 봇 이름
+
+MeetingOps-PM
+
+### 봇 목적
+
+회의 메모를 입력받아 회의 요약, 결정사항, 논의사항, Action Items, 리스크, 확인 필요 사항, 사내 공유용 요약을 자동으로 정리하는 회의록 자동화 봇이다.
+
+### 배포 방식
+
+ChatGPT의 GPTs 기능을 사용해 배포 가능한 형태로 구성했다.
+
+설정 항목은 다음과 같다.
+
+| 항목 | 내용 |
+|---|---|
+| Name | MeetingOps-PM |
+| Description | 회의 메모를 실행 가능한 회의록과 Action Items로 정리하는 봇 |
+| Instructions | `04_final_prompt.md`의 최종 프롬프트를 기반으로 입력 |
+| Knowledge | `02_system_design_document.md`, `04_final_prompt.md` 업로드 |
+| Conversation Starters | 회의 메모 정리, 결정사항 분리, 담당자 확인 필요 처리, 사내 공유용 요약 |
+
+[보너스 1 – 나만의 봇 배포_링크_](https://chatgpt.com/g/g-6a2521752c7c8191925b0dbf10c4d108-meetingops-pm)
